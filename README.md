@@ -1,8 +1,8 @@
 ## Indice
-1. [Equipo 2: Beyales](#equipo2:Beyales)
+1. [Equipo 2: Beyales](#equipo-2-Beyales)
 2. [Reto](#reto)
 3. [Solucion](#solucion)
-4. [Tecnologias Usadas](#tecnologiasUsadas)
+4. [Tecnologias Usadas](#tecnologias-Usadas)
 5. [Aplicacion Web](#aplicacionWeb)
 ### Equipo 2: Beyales
 ***
@@ -29,19 +29,15 @@ Descripción: El proceso electoral representa el principal mecanismo de particip
 ## Solucion
 ***
 A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+
 ## Tecnologias Usadas
 ***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+Estas son las tecnologias que usamos para desarrollar nuestra solucion:
+* [Django](https://www.djangoproject.com/)
+* [HTML5](https://developer.mozilla.org/es/docs/Web/Guide/HTML/HTML5)
+* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+* [CSS3](https://developer.mozilla.org/es/docs/Web/CSS) 
+* [Python](https://www.python.org/)
 ## Aplicacion Web
 ***
 Aqui ira el enlace a nuestra web
