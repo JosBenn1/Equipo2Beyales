@@ -28,7 +28,7 @@ Tecnologías: IBM Cloud
 Descripción: El proceso electoral representa el principal mecanismo de participación ciudadana, razón por la cual le corresponde al Estado asumir la gran responsabilidad de proteger, auspiciar y fomentar el derecho del voto, considerando que es el medio en que los ciudadanos toman la decisión en elegir a las personas que los representaran, por lo que el voto se convierte en un derecho y en un deber. Se está buscando que por medio de la tecnología logremos diseñar un nuevo modelo de votación, y garantizar un proceso más seguro, eficiente, rápido, fácil de usar y accesible con la integración de dispositivos móviles en el proceso, sin dejar de lado la votación presencial, y por qué no, proponer algunos otros sistemas como el de Ranked voting como en otros países del mundo.
 ## Solucion
 ***
-Nuestra solucion es 
+Aplicacion web desarollada para  
 
 ## Tecnologias Usadas
 ***
@@ -41,20 +41,8 @@ Estas son las tecnologias que usamos para desarrollar nuestra solucion:
 ## Aplicacion Web
 ***
 Aqui ira el enlace a nuestra web
+Proximamente
 
-## FAQs
+## Informacion extra
 ***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Proximamente
