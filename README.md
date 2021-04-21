@@ -1,14 +1,23 @@
 ## Indice
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
+1. [Equipo 2: Beyales](#equipo2:Beyales)
+2. [Reto](#reto)
+3. [Solucion](#solucion)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
-### General Info
+### Equipo 2: Beyales
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+### Reto
+
+Empresa: IBM
+
+Dificultad: Media
+
+Objetivo: Proponer un nuevo sistema de votación en el que se integre el ejercicio de TI.
+
+Tecnologías: IBM Cloud
+
+Descripción: El proceso electoral representa el principal mecanismo de participación ciudadana, razón por la cual le corresponde al Estado asumir la gran responsabilidad de proteger, auspiciar y fomentar el derecho del voto, considerando que es el medio en que los ciudadanos toman la decisión en elegir a las personas que los representaran, por lo que el voto se convierte en un derecho y en un deber. Se está buscando que por medio de la tecnología logremos diseñar un nuevo modelo de votación, y garantizar un proceso más seguro, eficiente, rápido, fácil de usar y accesible con la integración de dispositivos móviles en el proceso, sin dejar de lado la votación presencial, y por qué no, proponer algunos otros sistemas como el de Ranked voting como en otros países del mundo.
 ## Technologies
 ***
 A list of technologies used within the project:
