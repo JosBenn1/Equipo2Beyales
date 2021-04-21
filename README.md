@@ -2,7 +2,7 @@
 1. [Equipo 2: Beyales](#equipo2:Beyales)
 2. [Reto](#reto)
 3. [Solucion](#solucion)
-4. [Collaboration](#collaboration)
+4. [Tecnologias Usadas](#tecnologiasUsadas)
 5. [FAQs](#faqs)
 ### Equipo 2: Beyales
 ***
@@ -32,7 +32,7 @@ A list of technologies used within the project:
 * [Technologie name](https://example.com): Version 12.3 
 * [Technologie name](https://example.com): Version 2.34
 * [Library name](https://example.com): Version 1234
-## Installation
+## Tecnologias Usadas
 ***
 A little intro about the installation. 
 ```
