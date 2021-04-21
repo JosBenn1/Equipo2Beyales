@@ -3,7 +3,7 @@
 2. [Reto](#reto)
 3. [Solucion](#solucion)
 4. [Tecnologias Usadas](#tecnologias-Usadas)
-5. [Aplicacion Web](#aplicacionWeb)
+5. [Aplicacion Web (link)](#aplicacion-Web)
 ### Equipo 2: Beyales
 ***
 Nuestro equipo esta conformado por:
@@ -28,7 +28,7 @@ Tecnologías: IBM Cloud
 Descripción: El proceso electoral representa el principal mecanismo de participación ciudadana, razón por la cual le corresponde al Estado asumir la gran responsabilidad de proteger, auspiciar y fomentar el derecho del voto, considerando que es el medio en que los ciudadanos toman la decisión en elegir a las personas que los representaran, por lo que el voto se convierte en un derecho y en un deber. Se está buscando que por medio de la tecnología logremos diseñar un nuevo modelo de votación, y garantizar un proceso más seguro, eficiente, rápido, fácil de usar y accesible con la integración de dispositivos móviles en el proceso, sin dejar de lado la votación presencial, y por qué no, proponer algunos otros sistemas como el de Ranked voting como en otros países del mundo.
 ## Solucion
 ***
-A list of technologies used within the project:
+Nuestra solucion es 
 
 ## Tecnologias Usadas
 ***
@@ -41,9 +41,7 @@ Estas son las tecnologias que usamos para desarrollar nuestra solucion:
 ## Aplicacion Web
 ***
 Aqui ira el enlace a nuestra web
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
+
 ## FAQs
 ***
 A list of frequently asked questions
