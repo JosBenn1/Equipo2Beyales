@@ -3,7 +3,7 @@
 2. [Reto](#reto)
 3. [Solucion](#solucion)
 4. [Tecnologias Usadas](#tecnologiasUsadas)
-5. [FAQs](#faqs)
+5. [Aplicacion Web](#aplicacionWeb)
 ### Equipo 2: Beyales
 ***
 Nuestro equipo esta conformado por:
@@ -42,9 +42,9 @@ $ npm install
 $ npm start
 ```
 Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
+## Aplicacion Web
 ***
-Give instructions on how to collaborate with your project.
+Aqui ira el enlace a nuestra web
 > Maybe you want to write a quote in this part. 
 > It should go over several rows?
 > This is how you do it.
