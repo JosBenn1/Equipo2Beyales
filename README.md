@@ -18,7 +18,7 @@ Objetivo: Proponer un nuevo sistema de votación en el que se integre el ejercic
 Tecnologías: IBM Cloud
 
 Descripción: El proceso electoral representa el principal mecanismo de participación ciudadana, razón por la cual le corresponde al Estado asumir la gran responsabilidad de proteger, auspiciar y fomentar el derecho del voto, considerando que es el medio en que los ciudadanos toman la decisión en elegir a las personas que los representaran, por lo que el voto se convierte en un derecho y en un deber. Se está buscando que por medio de la tecnología logremos diseñar un nuevo modelo de votación, y garantizar un proceso más seguro, eficiente, rápido, fácil de usar y accesible con la integración de dispositivos móviles en el proceso, sin dejar de lado la votación presencial, y por qué no, proponer algunos otros sistemas como el de Ranked voting como en otros países del mundo.
-## Technologies
+## Solucion
 ***
 A list of technologies used within the project:
 * [Technologie name](https://example.com): Version 12.3 
