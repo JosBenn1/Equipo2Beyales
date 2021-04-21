@@ -6,7 +6,15 @@
 5. [FAQs](#faqs)
 ### Equipo 2: Beyales
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+Nuestro equipo esta conformado por:
+
+<ul>
+  <li>Yadhira Luna</li>
+  <li>Leslie de Gante</li>
+  <li>Oscar R</li>
+  <li>Jose Benito</li>
+</ul>
+  
 ### Reto
 
 Empresa: IBM
