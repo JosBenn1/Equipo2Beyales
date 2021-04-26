@@ -11,7 +11,7 @@ Nuestro equipo esta conformado por:
 <ul>
   <li>Yadhira Luna</li>
   <li>Leslie de Gante</li>
-  <li>Oscar R</li>
+  <li>Oscar</li>
   <li>Jose Benito</li>
 </ul>
   
