@@ -40,8 +40,9 @@ Estas son las tecnologias que usamos para desarrollar nuestra solucion:
 * [Python](https://www.python.org/)
 ## Aplicacion Web
 ***
-Aqui ira el enlace a nuestra web
-Proximamente
+Preview de la aplicacion web, en estado prototipada (baja fidelidad)
+
+https://ashy-ocean-01934f110.azurestaticapps.net/
 
 ## Informacion extra
 ***
