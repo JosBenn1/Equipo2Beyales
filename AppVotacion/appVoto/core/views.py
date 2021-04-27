@@ -17,4 +17,4 @@ def boleta(request):
     return render(request, "core/boleta.html")
 
 def generadorVoto(request):
-    return render(request, "core/generadorVoto.html")
+    return render(request, "core/generador-voto.html")

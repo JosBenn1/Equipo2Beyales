@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/global-style.css">
-    <link rel="stylesheet" href="styles/authentication-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
-    <title>Identifícate | Boleta digital</title>
-</head>
-<body>
+{% extends 'core/base.html' %}
+
+{% block title %}Identificate{% endblock %}
+
+{% load static %}
+<link href="{% static 'core/css/authentication-style.css'}" rel="stylesheet" >
+
+{% block content %}
     <main>
         <p>Busca el código QR en el reverso de tu credencial de elector.</p>
         <ol>
@@ -26,10 +22,5 @@
             </button>
         </div>
     </main>
-    <footer>
-        <a href="/index/">&lt;Regresar</a>
-        <a href="#">Aviso de privacidad</a>
-    </footer>
 
-</body>
-</html>
+{% endblock %}

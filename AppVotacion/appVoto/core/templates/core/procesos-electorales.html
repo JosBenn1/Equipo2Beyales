@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/global-style.css">
-    <link rel="stylesheet" href="styles/procesos-electorales-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
-    <title>Identifícate | Boleta digital</title>
-</head>
-<body>
+{% extends 'core/base.html' %}
+
+{% block title %}Indentificate{% endblock %}
+
+{% load static %}
+<link href="{% static 'core/css/procesos-electorales-style.css' %}" rel="stylesheet" >
+
+{% block content %}
     <main>
         <div id="message">
             <h3>Procesos electorales aplicables</h3>
@@ -31,14 +27,7 @@
                 {% endif %}
             </div>
             
-
-            
         </div>
     </main>
-    <footer>
-        <a href="/index/">Cancelar y salir</a>
-        <a href="#">Aviso de privacidad</a>
-    </footer>
 
-</body>
-</html>
+{% endblock %}

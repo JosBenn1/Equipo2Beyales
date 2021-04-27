@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/global-style.css">
-    <link rel="stylesheet" href="styles/home-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
-    <title>Inicio | Boleta digital</title>
-</head>
-<body>
+{% extends 'core/base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% load static %}
+<link href="{% static 'core/css/home-style.css' %}"rel="stylesheet">
+
+{% block content %}
     <header>
         <img id="logo" src="https://img.icons8.com/pastel-glyph/64/000000/image--v1.png"/>
         <h1 id="home-title">Generador de voto digital</h1>
@@ -37,9 +33,5 @@
             <a href="/scannerResult/" id="manual-verify">O ingresa tus datos manualmente></a><!-- temporalmente-->
         </div>
     </main>
-    <footer>
-        <a href="#">Aviso de privacidad</a>
-    </footer>
 
-</body>
-</html>
+{% endblock %}
