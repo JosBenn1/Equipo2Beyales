@@ -7,6 +7,19 @@
 
 {% block content %}
     <main>
-          
+        <h3>Tipos de elección aplicables</h3>
+        <p>Completa todas las siguientes secciones para generar tu voto:</p>
+        <!-- lista de tipos de elección -->
+        <div id="lista-tipo-eleccion">
+            {% for tipo in tipos_aplicables %}
+                <a href="#" class="tipo-eleccion">
+                    <span class="name-tipo-eleccion">{{ tipo.nombre }}</span>
+                    <span class="status">{{ tipo.completed_status }}</span>
+                </a>
+            {% endfor %}
+        </div>
+        <!-- Opciones -->
+        <p>Hace falta que complete (1) sección para poder generar tu voto.</p>
+        <button id="finalizar-btn">Click aquí para generar voto</button>
     </main>
 {% endblock %}
