@@ -14,7 +14,8 @@ Nuestro equipo esta conformado por:
   <li>Oscar</li>
   <li>Jose Benito</li>
 </ul>
-  
+
+![Screenshot](Disclaimer.jpg)
 ### Reto
 
 Empresa: IBM
