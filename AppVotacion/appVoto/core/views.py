@@ -18,3 +18,9 @@ def boleta(request):
 
 def generadorVoto(request):
     return render(request, "core/generador-voto.html")
+
+def votoQr(request):
+    return render(request, "core/voto-qr-resultado.html")
+
+def boletaInside(request):
+    return render(request, "core/boleta-inside.html")

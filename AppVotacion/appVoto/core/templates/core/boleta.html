@@ -1,25 +1,26 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Boleta digital{% endblock %}
-
 {% load static %}
-<link href="{% static 'core/css/boleta-style.css' %}" rel="stylesheet">
+
+{% block title %}Boleta digital {% endblock %}
+
+{% block head-extra %}
+    <link href="{% static 'core/css/boleta-style.css' %}" rel="stylesheet">
+{% endblock %}
 
 {% block content %}
-    <main>
-        <h3>Tipos de elección aplicables</h3>
-        <p>Completa todas las siguientes secciones para generar tu voto:</p>
-        <!-- lista de tipos de elección -->
-        <div id="lista-tipo-eleccion">
-            {% for tipo in tipos_aplicables %}
-                <a href="#" class="tipo-eleccion">
-                    <span class="name-tipo-eleccion">{{ tipo.nombre }}</span>
-                    <span class="status">{{ tipo.completed_status }}</span>
-                </a>
-            {% endfor %}
-        </div>
-        <!-- Opciones -->
-        <p>Hace falta que complete (1) sección para poder generar tu voto.</p>
-        <button id="finalizar-btn">Click aquí para generar voto</button>
-    </main>
+<main>
+    <h3>Tipos de elección aplicables</h3>
+    <p>Completa todas las siguientes secciones para generar tu voto:</p>
+    <!-- lista de tipos de elección -->
+    <div id="lista-tipo-eleccion">
+        <a href="/boletaInside/" class="tipo-eleccion">
+            <span class="name-tipo-eleccion">Presidente</span>
+            <span class="status">Por completar</span>
+        </a>
+    </div>
+    <!-- Opciones -->
+    <p>Hace falta que complete (1) sección para poder generar tu voto.</p>
+    <button id="finalizar-btn" href="/votoQr/">Click aquí para generar voto</button>
+</main>
 {% endblock %}

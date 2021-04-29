@@ -1,112 +1,102 @@
-/* Global */
-
-:root {
-    --header-height: 130px;
-    --footer-height: 80px;
-}
-
-html,
-body {
-    text-align: center;
-    background-color: rgb(247, 243, 238);
-    height: 100%;
-    font-size: 20px;
-}
-
-html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-h1#home-title {
-    font-size: 30px;
-    margin: 5px;
-}
-
-
-/* Header */
-
-header {
-    height: var(--header-height);
-    display: flex !important;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-flow: column wrap;
-    padding: 10px;
-    border-bottom: 1px solid rgb(230, 230, 230);
-}
-
-header img {
-    height: 30px;
-}
-
-header h1 {
-    display: block;
-}
-
-
-/* Main */
-
 main {
-    display: flex !important;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap:  wrap;
-    overflow: scroll;
-    padding: 2%;
-}
-
-#ayuda {
-    display: block;
-}
-
-#verify-user {
+    height: calc(100% - var(--footer-height));
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 90%;
-    min-height: 80%;
 }
 
-#verify-user svg#camera {
+h3 {
     display: block;
-    max-height: 20px;
+    width: 100%;
 }
 
-#scan-btn {
+/* lista tipos de elección aplicables */
+#lista-tipo-eleccion {
+    min-height: 30%;
+    width: 98%;
+}
+
+.tipo-eleccion {
     border: 1px solid black;
-    height: 150px;
-    width: 150px;
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    text-decoration: none;
 }
 
-#scan-btn,
-#manual-verify {
-    display: block;
+.name-tipo-eleccion {
+    margin-right: auto;
+}
+
+.status {
+    color: gray;
+}
+
+/* Opciones */
+#finalizar-btn {
+    border: 1px solid black;
+    height: 40px;
+    padding: 10px;
+    display: none;
+}
+
+/* Inside */
+#lista-candidatos {
+    max-width: 450px;
+}
+
+.candidato {
+    display: grid;
+    grid-template: auto / minmax(100px, 140px) auto;
+    grid-gap: 5px 5px;
+    border: 1px solid black;
+    padding: 0;
+    font-size: 16px;
+    align-items: center;
     margin-bottom: 10px;
 }
 
+h4, p {
+    margin: 5px 0;
+    width: 100%;
+}
 
-/* footer */
-
-footer {
-    height: var(--footer-height);
-    padding: 10px;
-    border-top: 1px solid rgb(230, 230, 230);
-    display: flex !important;
+.logo-partido {
+    grid-area: 1 / 1 / span 1 / span 1;
+    height: 100%;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    border-right: 1px solid black;
+}
+
+.logo-partido > img {
+    width: 100%;
+    height: auto;
+}
+
+#candidato-libre {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
     flex-wrap: wrap;
 }
 
-footer a {
+#candidato-libre > h4 {
+    font-size: 12px;
+    display: block;
+}
+
+#candidato-libre > input {
     width: 100%;
+    text-align: center;
+    height: 40px;
+}
+
+#confirmar-btn {
+    border: 1px solid black;
+    min-height: 40px;
+    padding: 10px;
 }

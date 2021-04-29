@@ -24,5 +24,7 @@ urlpatterns = [
     path('procesosElectorales/', views.procesosElectorales, name="procesosElectorales"),
     path('boleta/', views.boleta, name="boleta"),
     path('generadorVoto/', views.generadorVoto, name="generadorVoto"),
+    path('votoQr/', views.votoQr, name="votoQr"),
+    path('boletaInside/', views.boletaInside, name="boletaInside"),
     path('admin/', admin.site.urls),
 ]

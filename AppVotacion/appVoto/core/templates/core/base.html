@@ -7,8 +7,13 @@
     <title>{% block title %}{% endblock %}| Voto digital</title>
 
     {% load static %}
+    
     <link href="{% static 'core/css/global-style.css' %}" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+
+    {% block head-extra %}
+    <!--Nuevo btag block para agregar mas css-->
+    {% endblock %}
 </head>
 <body>
     {% block content %} {% endblock %}
