@@ -41,9 +41,9 @@ Estas son las tecnologias que usamos para desarrollar nuestra solucion:
 * [Python](https://www.python.org/)
 ## Aplicacion Web
 ***
-Preview de la aplicacion web, en estado prototipada (baja fidelidad)
+Aplicacion web
 
-https://ashy-ocean-01934f110.azurestaticapps.net/
+https://elecciones.azurewebsites.net
 
 ## Informacion extra
 ***
