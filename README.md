@@ -39,6 +39,7 @@ Estas son las tecnologias que usamos para desarrollar nuestra solucion:
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 * [CSS3](https://developer.mozilla.org/es/docs/Web/CSS) 
 * [Python](https://www.python.org/)
+* Azure: se utilizo el servicio de App Service para hostear la aplicacion web en un servidor en la nube. 
 ## Aplicacion Web
 ***
 Aplicacion web
@@ -47,4 +48,10 @@ https://elecciones.azurewebsites.net
 
 ## Informacion extra
 ***
-Proximamente
+La solución a este reto se realizo en base a los criterios establecidos en el marco legal y jurídico por parte del INE (organo encargado de realizar y coordinar los procesos electorales), a continuacion se enlistan los documentos que se utlizaron para la realizacion de la solucion al reto propuesto.
+
+CÁMARA DE DIPUTADOS DEL H. CONGRESO DE LA UNIÓN. (2014, mayo). LEY GENERAL DE INSTITUCIONES Y PROCEDIMIENTOS ELECTORALES. Recuperado de https://www.ine.mx/wp-content/uploads/2020/07/Despen-LEGIPE-NormaINE.pdf
+
+Dirección Ejecutiva de Capacitación Electoral y Educación Cívica. (2019). Criterios para la Elaboración de Materiales Didácticos y de Apoyo. Recuperado de https://repositoriodocumental.ine.mx/xmlui/bitstream/handle/123456789/112700/CGor201909-30-ap-9-a4.pdf
+
+Instituto Nacional Electoral. (2017, diciembre). Reglamento de elecciones. Autor. Recuperado de https://www.ine.mx/wp-content/uploads/2018/03/Reglamento-de-Elecciones-01-03-18.pdf
