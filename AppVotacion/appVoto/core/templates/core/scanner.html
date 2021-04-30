@@ -5,7 +5,7 @@
 {% block title %}Identificate {% endblock %}
 
 {% block head-extra %}
-    <link  rel="stylesheet" href="{% static 'core/css/authentication-style.css' %}">
+    <link  rel="stylesheet" href="{% static 'core/css/authentication-style.css' %}" type="text/css">
 {% endblock %}
 
 {% block content %}
@@ -20,9 +20,10 @@
         <div id="imagen-descriptiva">
             [Imagen descriptiva]
         </div>
-        <button id="scanner-btn">
+        <!-- <button id="scanner-btn">
             Abrir escáner QR con cámara
-        </button>
+        </button>-->
+        <a href="/scannerResult/" id="scanner-btn" class="btn btn-success">Abrir escáner QR con cámara</a>
     </div>
 </main>
 {% endblock %}
