@@ -29,7 +29,7 @@ Tecnologías: IBM Cloud
 Descripción: El proceso electoral representa el principal mecanismo de participación ciudadana, razón por la cual le corresponde al Estado asumir la gran responsabilidad de proteger, auspiciar y fomentar el derecho del voto, considerando que es el medio en que los ciudadanos toman la decisión en elegir a las personas que los representaran, por lo que el voto se convierte en un derecho y en un deber. Se está buscando que por medio de la tecnología logremos diseñar un nuevo modelo de votación, y garantizar un proceso más seguro, eficiente, rápido, fácil de usar y accesible con la integración de dispositivos móviles en el proceso, sin dejar de lado la votación presencial, y por qué no, proponer algunos otros sistemas como el de Ranked voting como en otros países del mundo.
 ## Solucion
 ***
-Aplicacion web desarollada para  
+Aplicacion web desarollada para agilizar y mejorar el proceso de eleccion, esta aplicacion web utilizara los elementos ya predispuestos en las identificaciones de los electores para acelerar el proceso, ya que la eleccion de su candidato se puede hacer desde cualquier punto, solo con tener un dispositivo movil con acceso a internet. podra realizar el procedimiento, ademas se reduciran los momentos de contacto y aglomeraciones.
 
 ## Tecnologias Usadas
 ***
@@ -44,6 +44,7 @@ Estas son las tecnologias que usamos para desarrollar nuestra solucion:
 ***
 Aplicacion web
 
+Este el el link hacia nuestra aplicacion web hospedada en la nube.
 https://elecciones.azurewebsites.net
 
 ## Informacion extra
