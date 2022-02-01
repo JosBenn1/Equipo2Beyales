@@ -45,7 +45,7 @@ Estas son las tecnologias que usamos para desarrollar nuestra solucion:
 Aplicacion web
 
 Este el el link hacia nuestra aplicacion web hospedada en la nube.
-https://elecciones.azurewebsites.net
+Proximamente
 
 ## Informacion extra
 ***
